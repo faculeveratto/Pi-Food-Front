@@ -111,7 +111,7 @@ const Home = () => {
                         <select defaultValue="Diets" onChange={e => handleFilterByType(e)}>
                             <option disabled>Diets</option>
                             <option value="all">All</option>
-                            {types.map((e) => (
+                            {types?.map((e) => (
                                 <option key={e.id} value={e.name}>{e.name}</option>
                             ))}
                         </select>
