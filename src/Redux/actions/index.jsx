@@ -39,7 +39,7 @@ export function getTypes(payload){
 
 export function getDiets (){
   return async function(dispatch){
-    let json=await axios.get(`/types`)
+    let json=await axios.get(`https://pi-food-back.herokuapp.com/types`)
     return dispatch({
       type:GET_DIETS,
       payload : json.data
