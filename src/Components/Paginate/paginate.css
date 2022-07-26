@@ -1,0 +1,14 @@
+.paginado {
+    font-family:Arial;
+    font-weight:bold;
+    font-size:13px;
+    cursor: pointer;
+    border-radius: 200px;
+    
+  }
+  
+  .li {
+    display:inline;
+       padding-left:10px;
+       padding-right:10px;
+  }

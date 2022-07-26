@@ -1,0 +1,146 @@
+.principal-on {
+    background-image: url("../../img/fondo4.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+   position: absolute;
+   display: grid;
+   width: 100%;
+   height: 100%;
+   justify-items: center;
+   align-items: baseline;
+   z-index: 0;
+  }
+  .formContainer{
+    background: linear-gradient(345deg, black, transparent);
+    box-shadow: black 2rem 2rem 30px;
+    height: 80.4vh;
+    width: 34rem;
+    display: inline-grid;
+    grid-gap: 0.7rem;
+    margin: 0.001rem;
+    padding: 0.04rem;
+    border-radius: 0.4rem;
+    border: solid 0.06rem rgba(255, 255, 255, 0);
+    justify-items: center;
+    z-index: 5;
+  }
+  
+  .formContainer:hover{
+    border: green;
+    box-shadow: green;
+    background: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.2) 20%,
+      rgba(0,0,0,0)
+      );;
+  }
+  form{
+    display: inline-grid;
+    flex-direction: column;
+    align-content: space-evenly;
+    justify-content: start;
+    z-index: 10;
+  }
+  .titleForm {
+    text-decoration: none;
+    font-weight: 1;
+    font-size: 8vh;
+    margin-bottom:-2vh;
+    margin-top: -1rem;
+    width: fit-content;
+    transition: all 200ms;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none; 
+    
+  }
+  .titleForm:hover {
+    color: green;
+    text-shadow: 0 0 30px #db0004;
+    transform: scale(1.01);
+  }
+  
+  .errorForm{
+    color: rgb(185, 8, 8);
+    font-size: 1rem;
+    background-color: black;
+  } 
+  .selectsConteiner{
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .selects{
+    display: inline-grid;
+    align-items: start;
+      justify-items: start;
+  }
+  .btnForm{
+    margin-top: 1rem;
+    cursor: pointer;
+    width: 3.3rem;
+    height: 1.3rem;
+    border-width: 0.000001rem;
+    color: rgb(118 118 118);
+    background-color: rgb(59, 59, 59);
+    border-radius: 0.2rem;
+    border-color: #780b0b;
+    border-style: solid;
+    justify-self: center;
+  }
+  .btnForm:hover{
+    color: #db0004;
+    box-shadow: 0 0 30px #db0004;
+    transform: scale(1.01);
+    background: linear-gradient( to top, 
+    rgba(0, 0, 0, 0.5), 
+    rgba(0, 0, 0, 0.2) 20%, 
+    rgba(0, 0, 0, 0) );
+  }
+  .descriptionForm{
+    resize: none;
+    width: 18rem;
+    height: 3rem;
+    font-size: 1rem;
+    border-width: 0px;
+    color: white;
+    background-color: rgb(59, 59, 59);
+    border-radius: 0.2rem;
+    border-width: 0.01rem;
+    border-color: #780b0b;
+    border-style: solid;
+    transition: all 600ms ease;
+  }
+  .descriptionForm:hover{
+      border: solid 0.06rem #db0004;
+      box-shadow: 0 0 30px #db0004;
+     
+  }
+  .descriptionForm1{
+    resize: none;
+    width: 8rem;
+    height: 1.5rem;
+    font-size: 0.9rem;
+    border-width: 0px;
+    color:rgb(0, 0, 0);
+    background-color: rgb(59, 59, 59);
+    border-radius: 0.2rem;
+    border-width: 0.01rem;
+    border-color: #780b0b;
+    border-style: solid;
+    transition: all 600ms ease;
+  }
+  .descriptionForm1:hover{
+      border: solid 0.06rem #db0004;
+      box-shadow: 0 0 30px #db0004;
+     
+  }
+  .opciones{
+    display: inline-flex;
+  }
+
+  
+  
+  

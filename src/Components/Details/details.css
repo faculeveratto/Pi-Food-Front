@@ -1,0 +1,59 @@
+.detail-background {
+    background-image: url(./../../img/fondo7.jpg);
+  }
+  
+  
+  
+  
+  .detalle {
+    font-family: "Uchen", serif;
+    color:dimgrey;
+    text-shadow: 0 1px 3px rgb(0, 0, 0, 0.5);
+    font-size: 1.1em;
+    background-color: rgba(169, 169, 169, 0.301);
+  }
+  
+  .detalle h2 {
+    font-size: 50px;
+    color: whitesmoke;
+  }
+  .detalle h3 {
+    font-size: 25px;
+    color: white;
+  }
+  
+  .detalle h4 {
+    font-size: 25px;
+  }
+  .detalle h5 {
+    font-size: 18px;
+    text-align: left;
+    padding-left: 10px;
+    color:white
+  }
+  .detalle img {
+    height: 350px;
+    width: 450px;
+    border-radius: 15px;
+    border: 3px solid white;
+  }
+  
+  .detalle img:hover {
+    border: 5px solid white;
+  }
+  
+  .steps {
+    padding-bottom: 20px;
+    font-size: 25px;
+    font-family: "Uchen", serif;
+    text-align: left;
+    padding-left: 10px;
+    color: white;
+  }
+  
+  .detalle:hover {
+    color: white;
+  }
+  .borde:hover {
+    background-color: rgba(0, 0, 0, 0.253);
+  }

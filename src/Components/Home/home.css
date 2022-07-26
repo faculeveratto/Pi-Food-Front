@@ -1,0 +1,93 @@
+.foto {
+    background-image: url(../../img/f.jpg);
+    background-repeat:no-repeat;
+    background-color:black;
+    background-position-y:initial;
+    background-position-x: right;
+    height: 100vh;
+  }
+  
+  .cards {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .a{
+    color:rgb(241, 189, 189);
+    display:flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+  }
+  h1{
+    margin-left: -4.5em;
+  }
+  .b{
+    text-align:center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+.boton{ 
+   color:darkred;
+    margin:0 auto;
+    display:block;
+}
+
+.btn {
+  font-family: "Zen Antique", serif;
+  display: block;
+  font-size: 1em;
+  margin:0 auto;
+  margin-top: 1em;
+  color: white;
+  border: 1px solid #ccc;
+  background: black;
+  box-shadow: 0 0 5px -1px rgba(236, 231, 231, 0.2);
+  cursor: pointer;
+  width:11em;
+  text-align:center;
+  /* //vertical-align: middle; */
+  /* max-width: 150px; */
+  /* padding: 10px; */
+  /* //text-align: center; */
+}
+
+.searchDiv{
+  text-align:center;
+ }
+ 
+ .navContainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ }
+
+ .loader{
+  height: 10em;
+  width: 10em;
+  background-color: antiquewhite;
+  box-shadow: 0.4em 1.3em 1em rgba(0,0,0,1),
+  0.65em 1.2em 1.1em rgb(63, 62, 62),
+  0.85em 1.2em 1.3em rgba(0,0,0,1);
+}
+
+select {
+  margin:1em;
+  margin-top: 2em;
+  height: 2em;
+  width:4 em;
+  border-radius: 1em;
+  display: flex row;
+
+
+}
+
+select :hover{
+  transform: translateY(-0.5em);
+
+}
+.botonReload{
+  padding-top:1em 
+}

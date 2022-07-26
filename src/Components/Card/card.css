@@ -1,0 +1,33 @@
+.card {
+  margin-left: 50px;
+  margin-top: 20px;
+  margin-block-end: 50px;
+  margin-right: 50px;
+  
+  width: 280px;
+ background-color: rgb(94, 91, 91);
+  backdrop-filter: blur(6px);
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: rgb(241, 241, 241) 0px 0px 10px 1px;
+  
+  text-align: center;
+  align-items: center;
+  }
+  
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  .card:hover {
+    cursor: pointer;
+   transform: translateY(-5px);
+    box-shadow: 10px 12px 16px rgba(50, 50, 50, 1);
+    transition: all 0.25s;
+     
+  }
+
+img{
+  max-height: 16rem;
+    border-radius: 10px;
+}
