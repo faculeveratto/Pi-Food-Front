@@ -108,13 +108,13 @@ const Home = () => {
                             <option value='Max-Min'>High score</option>
                             <option value='Min-Max'>Low score</option>
                         </select>
-                        <select defaultValue="Diets" onChange={e => handleFilterByType(e)}>
+                        {/* <select defaultValue="Diets" onChange={e => handleFilterByType(e)}>
                             <option disabled>Diets</option>
                             <option value="all">All</option>
                             {types?.map((e) => (
                                 <option key={e.id} value={e.name}>{e.name}</option>
                             ))}
-                        </select>
+                        </select> */}
                        
                     </div> 
                     <Paginado
