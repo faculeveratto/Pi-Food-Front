@@ -7,7 +7,6 @@ import Paginado from "../Paginate/paginate"
 import SearchBar from "../SearchBar/searchBar";
 import loader from "./cooking.gif"
 import "./home.css"
-import Footer from "../Footer/Footer"
 
 const Home = () => {
     const dispatch = useDispatch();
@@ -140,7 +139,7 @@ const Home = () => {
                                     )
                                 }) : <div className="loader"><img src={loader} alt="CARGANDOOOO" /></div>}
                 </div>
-            <Footer/>
+            
             </div>
         </div>
     )
