@@ -58,9 +58,9 @@
     background-color: rgba(0, 0, 0, 0.253);
   }
   .loader{
+    width: 30em;
+    height: 25em;
     display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
     justify-content: center;
-    align-items: center;
+    margin-left:43em ;
   }
