@@ -137,7 +137,7 @@ const Home = () => {
                                     </Link>
                                 </div>
                                     )
-                                }) : <div className="loader"><img src={loader} alt="CARGANDOOOO" /></div>}
+                                }) : <div><img src={loader} alt="CARGANDOOOO" /></div>}
                 </div>
             
             </div>
