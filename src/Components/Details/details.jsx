@@ -6,6 +6,7 @@ import {Link} from "react-router-dom"
 import "./details.css"
 import axios from "axios"
 import { useState } from "react";
+import loader from "./cooking.gif"
 
 const Details = () => {
     const[recipe,setRecipe] = useState()
@@ -54,7 +55,7 @@ const Details = () => {
                 </div>
             </div>
         </div>
-        ):<h1>Cargando...</h1>
+        ): <div className="loader"><img src={loader} alt="CARGANDOOOO" /></div>
 }
 
 export default Details
