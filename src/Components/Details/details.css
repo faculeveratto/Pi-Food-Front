@@ -57,3 +57,11 @@
   .borde:hover {
     background-color: rgba(0, 0, 0, 0.253);
   }
+  .loader{
+    height: 10em;
+    width: 10em;
+    background-color: antiquewhite;
+    box-shadow: 0.4em 1.3em 1em rgba(0,0,0,1),
+    0.65em 1.2em 1.1em rgb(63, 62, 62),
+    0.85em 1.2em 1.3em rgba(0,0,0,1);
+  }
